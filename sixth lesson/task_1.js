@@ -5,6 +5,7 @@ userPassword = prompt('Введите пароль');
 userPassword = Number(userPassword.trim());
 userLogin = userLogin.trim();
 
+
 if (existedUserLogin === userLogin && existedUserPassword === userPassword) {
    alert(`Добро пожаловать, ${userLogin}`);
 } else {
