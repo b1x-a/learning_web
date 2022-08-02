@@ -62,10 +62,10 @@ if (question5 === answer5) {
 
 alert(`Конец теста ! Правильных ответов ${correctAnswers}, неправильных ответов ${incorrectAnswers}.`);
 
-if (correctAnswers <= 1 || correctAnswers > 4) {
+if (correctAnswers >= 2 && correctAnswers < 3) {
    alert('Кажется вам нужно больше учиться и успех не заставит себя ждать. Удачи в учении!.');
 } else {
-   alert('Поздравляю Ваш балл вышего среднего !');
+   alert('Поздравляю! Ваш балл вышего среднего !');
 }
 
 
