@@ -1,29 +1,29 @@
 const numbers = [10, 4, 100, -5, 54, 2];
-// const arrValue = [];
+
 
 //for of 
+// let num = 0;
 // for (let value of numbers) {
-//    arrValue.push(value **= 3);
+//    num += value **= 3;
 // }
-// let sumValueInArr = arrValue.reduce((prev, curr) => prev + curr, 0);
+// console.log(num);
 
-// forEach 
+//  forEach 
+// let num2 = 0;
 // numbers.forEach((elem) => {
-//   arrValue.push(elem ** 3)
+//   num2 += elem ** 3;
 // })
-// let sumValueInArr = arrValue.reduce((prev, curr) => prev + curr, 0);
+// console.log(num2);
 
 
-// for
+//  for
+// let num3 = 0;
 // for (let i = 0; i < numbers.length; i++) {
-//       arrValue.push(numbers[i] ** 3)
+//       num3 += numbers[i] ** 3;
 //    }
-//    let sumValueInArr = arrValue.reduce((prev, curr) => prev + curr, 0);
-
-   
-   // console.log(sumValueInArr);
+// console.log(num3)
 
 
-  let arrValue = numbers.reduce((prev, curr) => prev + (curr * curr * curr), 0);
-  console.log(arrValue)
+//   let arrValue = numbers.reduce((prev, curr) => prev + (curr * curr * curr), 0);
+
 
